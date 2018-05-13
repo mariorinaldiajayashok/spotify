@@ -1,3 +1,14 @@
+
+<?php
+
+include('includes/handlers/login-handler.php');
+
+?>
+
+
+
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -11,7 +22,101 @@
 </head>
 <body>
 
+<div class="container">
 
+ <div class="row">
+
+  <div class="col-md-8">
+
+  <h1>About Spotify</h1>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, assumenda beatae, consequuntur dolorum et facere inventore ipsum iste laudantium magnam minima nesciunt nisi nostrum possimus quos sapiente soluta voluptatibus! At culpa cumque ducimus, eligendi facere illum magni minus natus porro quidem quisquam sed, tempora voluptatem! Nesciunt ratione repudiandae sapiente voluptatibus?</p>
+
+
+  </div>   <!--col-md-8-->
+
+
+
+ <div class="col-md-4">
+
+     <br>
+
+ <div class="card">
+
+  <div class="card-header">
+
+      <h4>LOGIN</h4>
+      <p>Login to continue where you left off</p>
+
+
+  </div><!--card-header-->
+
+ <div class="login-cover">
+
+<div class="card-body">
+
+    <form action="register.php" method="post">
+
+     <div class="form-group">
+
+         <input type="text" name="login-username" class="form-control" placeholder="Username">
+
+
+
+
+
+     </div> <!--form-group-->
+
+        <div class="form-group">
+
+            <input type="password" name="login-password" class="form-control" placeholder="Password">
+
+
+
+
+
+        </div> <!--form-group-->
+
+
+        <button class="btn btn-primary btn-block" name="login">LOGIN</button>
+
+         <br>
+        <div class="jquery-handler">
+
+            <a href="#" style="margin-left: 20px; color: red; font-family: Menlo;">New User?Register Here</a>
+        </div>
+
+
+    </form>
+
+
+
+
+
+
+</div> <!--card-body-->
+
+ </div> <!--login-cover-->
+
+
+ </div> <!--card-->
+
+
+
+
+ </div>    <!--col-md-4-->
+
+
+
+
+
+ </div>   <!--container-->
+
+
+
+
+
+
+</div> <!--container-->
 
 
 
