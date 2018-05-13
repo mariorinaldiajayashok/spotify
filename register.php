@@ -3,6 +3,8 @@
 
 include('includes/handlers/login-handler.php');
 
+include('includes/handlers/register-handler.php');
+
 ?>
 
 
@@ -99,6 +101,107 @@ include('includes/handlers/login-handler.php');
 
 
  </div> <!--card-->
+
+
+  <br>
+
+
+  <div class="card">
+
+   <div class="card-header">
+
+    <h4>Registration</h4>
+
+    <p>Register to access all the content for free</p>
+
+
+
+
+   </div> <!---card-header-->
+
+
+    <div class="signup-form">
+   <div class="card-body">
+
+       <form action="register.php" method="post">
+
+       <div class="form-group">
+
+           <input type="text" name="register-username" placeholder="Username" class="form-control">
+
+       </div>
+
+
+           <div class="form-group">
+
+               <input type="text" name="register-firstname" placeholder="Firstname" class="form-control">
+
+           </div>
+
+
+           <div class="form-group">
+
+               <input type="text" name="register-lastname" placeholder="Lastname" class="form-control">
+
+           </div>
+
+           <div class="form-group">
+
+               <input type="email" name="register-email" placeholder="Email" class="form-control">
+
+           </div>
+
+           <div class="form-group">
+
+               <input type="email" name="register-confirmEmail" placeholder="Confirm Email" class="form-control">
+
+           </div>
+
+           <div class="form-group">
+
+               <input type="password" name="register-password" placeholder="Password" class="form-control">
+
+           </div>
+
+           <div class="form-group">
+
+               <input type="password" name="register-confirmPassword" placeholder="Confirm Password" class="form-control">
+
+           </div>
+
+
+          <button type="submit" name="register" class="btn btn-primary btn-block">Register</button>
+
+           <br>
+
+           <a href="#" style="color: red;font-family: Menlo;margin-left: 20px;">Already a user?Login here</a>
+
+
+       </form>
+
+
+
+
+
+   </div>   <!---card-body--->
+
+    </div> <!---signup-form-->
+
+
+
+
+
+
+
+  </div><!---card--->
+
+
+
+
+
+
+
+
 
 
 
